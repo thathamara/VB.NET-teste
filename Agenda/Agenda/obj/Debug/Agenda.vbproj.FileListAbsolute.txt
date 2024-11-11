@@ -1,0 +1,9 @@
+C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\bin\Agenda.dll.config
+C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\bin\Agenda.dll
+C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\bin\Agenda.pdb
+C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\bin\Agenda.xml
+C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\obj\Debug\Agenda.Resources.resources
+C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\obj\Debug\Agenda.vbproj.GenerateResource.Cache
+C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\obj\Debug\Agenda.dll
+C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\obj\Debug\Agenda.xml
+C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\obj\Debug\Agenda.pdb

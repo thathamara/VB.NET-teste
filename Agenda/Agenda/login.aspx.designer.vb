@@ -50,7 +50,7 @@ Partial Public Class login
     Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''TextBox2 control.
+    '''TxtSenha control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.

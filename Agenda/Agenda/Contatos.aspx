@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<br />
+    <br />
 <br />
 <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Larger" Text="Inserir novo contato"></asp:Label>
 <br />
@@ -21,7 +21,7 @@
 <br />
 <asp:SqlDataSource ID="SqlDataSourceContatos" runat="server" ConnectionString="<%$ ConnectionStrings:aaaaaaaaaaaaaConnectionString %>" SelectCommand="SELECT DISTINCT * FROM [aaa]">
 </asp:SqlDataSource>
-    <br />
+<br />
     <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="Larger" Text="Lista de Contatos"></asp:Label>
     <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSourceContatos" ForeColor="#333333" GridLines="None" Height="355px" Width="382px">
     <AlternatingRowStyle BackColor="White" />

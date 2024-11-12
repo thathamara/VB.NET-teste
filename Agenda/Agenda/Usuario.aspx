@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h3>Lista de Usuarios</h3>
+    <h2>Lista de Usuarios</h2>
     
     <asp:ListView ID="ListView1" runat="server" DataKeyNames="email" DataSourceID="SqlDataSourceUsuarios" InsertItemPosition="LastItem">
     <AlternatingItemTemplate>

@@ -40,7 +40,7 @@ To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:Agenda.login.TxtSenha">
 	<summary>
-TextBox2 control.
+TxtSenha control.
 </summary>
 	<remarks>
 Auto-generated field.

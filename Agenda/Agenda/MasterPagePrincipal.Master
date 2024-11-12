@@ -7,6 +7,12 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 294px;
+            height: 259px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -31,11 +37,17 @@
         <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
+            <p>
+                <br />
+            </p>
+            <section>
+&nbsp;<img alt="" class="auto-style1" src="Imagens/livro-de-visitas.png" /></section>
         </asp:ContentPlaceHolder>
     </div>
     </main>
-        <footer><h2>Site desenvolvido por</h2>
-            </footer><asp:HyperLink ID="HyperLink1" runat="server" Text="Thamara" NavigateUrl="http:/www.thamara.com">Thamara</asp:HyperLink>
+        <footer><h3>Site desenvolvido por <asp:HyperLink ID="HyperLink1" runat="server" Text="Thamara" NavigateUrl="http:/www.thamara.com" Font-Size="Medium"></asp:HyperLink>
+            </h3>
+            </footer>
     </form>
 </body>
 </html>

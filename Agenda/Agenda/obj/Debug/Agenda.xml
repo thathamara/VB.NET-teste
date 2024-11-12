@@ -6,15 +6,7 @@ Agenda
 </name>
 </assembly>
 <members>
-<member name="F:Agenda.MasterPagePrincipal.head">
-	<summary>
-head control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Agenda.MasterPagePrincipal.form1">
+<member name="F:Agenda.login.form1">
 	<summary>
 form1 control.
 </summary>
@@ -22,25 +14,49 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Agenda.MasterPagePrincipal.Menu1">
+</member><member name="F:Agenda.login.Label1">
 	<summary>
-Menu1 control.
+Label1 control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Agenda.MasterPagePrincipal.ContentPlaceHolder1">
+</member><member name="F:Agenda.login.TxtEmail">
 	<summary>
-ContentPlaceHolder1 control.
+TxtEmail control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Agenda.MasterPagePrincipal.HyperLink1">
+</member><member name="F:Agenda.login.Label2">
 	<summary>
-HyperLink1 control.
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Agenda.login.TxtSenha">
+	<summary>
+TextBox2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Agenda.login.BtnLogar">
+	<summary>
+BtnLogar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Agenda.index.Image1">
+	<summary>
+Image1 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -71,38 +87,6 @@ To modify move field declaration from designer file to code-behind file.
  Module used to define the properties that are available in the My Namespace for Web projects.
  </summary>
 	<remarks></remarks>
-</member><member name="F:Agenda.WebForm1.ListView1">
-	<summary>
-ListView1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Agenda.WebForm1.SqlDataSourceUsuarios">
-	<summary>
-SqlDataSourceUsuarios control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Agenda.WebForm1.IMsg">
-	<summary>
-IMsg control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Agenda.WebForm2.Label1">
-	<summary>
-Label1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
 </member><member name="F:Agenda.WebForm2.Label2">
 	<summary>
 Label2 control.
@@ -167,14 +151,6 @@ Button1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Agenda.WebForm2.GridView1">
-	<summary>
-GridView1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
 </member><member name="F:Agenda.WebForm2.SqlDataSourceContatos">
 	<summary>
 SqlDataSourceContatos control.
@@ -183,9 +159,81 @@ SqlDataSourceContatos control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Agenda.index.Image1">
+</member><member name="F:Agenda.WebForm2.Label1">
 	<summary>
-Image1 control.
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Agenda.WebForm2.GridView1">
+	<summary>
+GridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Agenda.WebForm1.ListView1">
+	<summary>
+ListView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Agenda.WebForm1.SqlDataSourceUsuarios">
+	<summary>
+SqlDataSourceUsuarios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Agenda.WebForm1.IMsg">
+	<summary>
+IMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Agenda.MasterPagePrincipal.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Agenda.MasterPagePrincipal.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Agenda.MasterPagePrincipal.Menu1">
+	<summary>
+Menu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Agenda.MasterPagePrincipal.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Agenda.MasterPagePrincipal.HyperLink1">
+	<summary>
+HyperLink1 control.
 </summary>
 	<remarks>
 Auto-generated field.

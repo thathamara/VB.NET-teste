@@ -1,5 +1,6 @@
 ﻿Imports System.Data.SqlClient
 
+
 Public Class WebForm2
     Inherits System.Web.UI.Page
 
@@ -25,37 +26,49 @@ Public Class WebForm2
 
 
 
-    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs) Handles Button1.Click 'problema erro
 
-        Sub ConectarAoBanco()
-        ' Defina a string de conexão
-        Dim connectionString As String = "Data Source=DESKTOP-53O4LN7\SQLEXPRESS; Initial Catalog=BancoDeDadosAgenda.mdf; Persist Security Info=True; User ID=sa; Password=dim@admin2008"
 
-        ' Usa o bloco Using para garantir que a conexão seja fechada corretamente
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+        ' Exemplo de operação de salvamento
+        Dim nome As String = TextBox1.Text()
+        Dim email As String = TextBox2.Text()
+        Dim telefone As String = TextBox3.Text()
+
+        SalvarDados(nome, email, telefone)
+
+    End Sub
+
+
+
+
+    Private Sub SalvarDados(nome As String, email As String, telefone As String)
+        ' Define a string de conexão com o banco de dados
+        Dim connectionString As String = "Data Source=DESKTOP-53O4LN7\SQLEXPRESS;Initial Catalog=aaaaaaaaaaaaa;Integrated Security=True ; User ID=sa; Password=dim@admin2008"
+
+        ' Cria a conexão com o banco de dados
         Using connection As New SqlConnection(connectionString)
-            Try
-                ' Abre a conexão
-                connection.Open()
-                Console.WriteLine("Conexão aberta com sucesso!")
+            ' Define o comando SQL de inserção
+            Dim query As String = "INSERT INTO aaa (nome,email,telefone) VALUES (@nome, @email,@telefone)"
 
-                ' Exemplo de consulta
-                Dim query As String = "SELECT * FROM SuaTabela"
+            ' Cria o comando e associa os parâmetros
+            Using command As New SqlCommand(query, connection)
+                command.Parameters.AddWithValue("@nome", nome)
+                command.Parameters.AddWithValue("@email", email)
+                command.Parameters.AddWithValue("@telefone", telefone)
 
-                ' Cria e executa o comando SQL
-                Using command As New SqlCommand(query, connection)
-                    Using reader As SqlDataReader = command.ExecuteReader()
-                        While reader.Read()
-                            ' Lê a primeira coluna da linha atual
-                            Console.WriteLine(reader(0).ToString())
-                        End While
-                    End Using
-                End Using
-
-            Catch ex As Exception
-                Console.WriteLine("Erro ao conectar: " & ex.Message)
-            End Try
+                Try
+                    ' Abre a conexão e executa o comando
+                    connection.Open()
+                    command.ExecuteNonQuery()
+                    MsgBox("Dados salvos com sucesso!")
+                Catch ex As Exception
+                    ' Tratamento de erro em caso de falha
+                    MsgBox("Erro ao salvar dados: " & ex.Message)
+                End Try
+            End Using
         End Using
     End Sub
 
 End Class
-

@@ -7,3 +7,12 @@ C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\obj\Debug\Ag
 C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\obj\Debug\Agenda.dll
 C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\obj\Debug\Agenda.xml
 C:\Users\DimTha\Documents\Visual Studio 2013\Projects\Agenda\Agenda\obj\Debug\Agenda.pdb
+C:\Users\Thamara\Documents\VB.NET-teste\Agenda\Agenda\obj\Debug\Agenda.Resources.resources
+C:\Users\Thamara\Documents\VB.NET-teste\Agenda\Agenda\obj\Debug\Agenda.vbproj.GenerateResource.Cache
+C:\Users\Thamara\Documents\VB.NET-teste\Agenda\Agenda\obj\Debug\Agenda.dll
+C:\Users\Thamara\Documents\VB.NET-teste\Agenda\Agenda\obj\Debug\Agenda.xml
+C:\Users\Thamara\Documents\VB.NET-teste\Agenda\Agenda\obj\Debug\Agenda.pdb
+C:\Users\Thamara\Documents\VB.NET-teste\Agenda\Agenda\bin\Agenda.dll.config
+C:\Users\Thamara\Documents\VB.NET-teste\Agenda\Agenda\bin\Agenda.dll
+C:\Users\Thamara\Documents\VB.NET-teste\Agenda\Agenda\bin\Agenda.pdb
+C:\Users\Thamara\Documents\VB.NET-teste\Agenda\Agenda\bin\Agenda.xml
